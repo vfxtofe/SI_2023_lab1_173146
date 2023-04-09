@@ -1,0 +1,17 @@
+ commit ed6bdee4fafe716de515bbf1c9d24b96713f7717 (HEAD -> master, origin/master, origin/bug1, bug1)
+| Author: vfxtofe <tetovodubstep@gmail.com>
+| Date:   Sun Apr 9 21:10:51 2023 +0200
+|
+|     Fix wrong loop for reading
+|
+* commit da2713711021a18cb51243ebd8fbe79a673ee656
+| Author: vfxtofe <tetovodubstep@gmail.com>
+| Date:   Sun Apr 9 21:07:08 2023 +0200
+|
+|     Add Java Class
+|
+* commit ea531e33895a2b72536ecc34593492824d7e2926
+  Author: vfxtofe <tetovodubstep@gmail.com>
+  Date:   Sun Apr 9 19:35:54 2023 +0200
+
+      Initial commit

@@ -1,0 +1,43 @@
+
+git init
+
+git clone git@github.com:vfxtofe/SI_2023_lab1_173146.git
+
+git remote add SI_2023_lab1_173146 https://github.com/vfxtofe/SI_2023_lab1_173146.git
+
+git config --global user.email "tetovodubstep@gmail.com"
+git config --global user.name "vfxtofe"
+
+git add README.md && git commit -m "Initial commit" README.md
+
+git add SILab1.java && git commit -m "Add java class" SILab1.java
+
+git push --set-upstream SI_2023_lab1_173146 master
+
+git branch bug1
+
+git branch bug2
+
+git branch bug3
+
+git checkout master
+
+git checkout bug1
+
+git add SILab1.java && git commit -m "Fix wrong loop for reading" SILab1.java
+
+git checkout bug2
+
+git add SILab1.java && git commit -m "Fix wrong condition in filterOddNumbers" SILab1.java
+
+git checkout bug3
+
+git add SILab1.java && git commit -m "Fix method sumEvenNumbers" SILab1.java
+
+git push --all
+
+git checkout master
+
+git merge bug1
+
+git push
